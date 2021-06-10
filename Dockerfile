@@ -36,6 +36,6 @@ COPY --from=builder /usr/src/app /usr/src/app
 
 WORKDIR /usr/src/app
 
-EXPOSE 9207
+EXPOSE 9433
 
 CMD ["node", "dist/index"]

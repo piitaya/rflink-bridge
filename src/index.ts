@@ -1,7 +1,7 @@
 import fastify from "fastify";
 import controller from "./controller";
 
-const PORT = Number(process.env.PORT) || 9443;
+const PORT = Number(process.env.PORT) || 9433;
 const app = fastify();
 
 app.register(controller);
